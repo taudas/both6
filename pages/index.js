@@ -1,5 +1,6 @@
 import Script from 'next/script'
 import Head from 'next/head'
+export const config = {  runtime: "experimental-edge",};
 
 export default function Index() {
   return (
@@ -15,7 +16,7 @@ export default function Index() {
     controls
         poster="/wcbn.png"
     preload="auto"
-//    width="640"
+    width="100%"
   //  height="264"
     data-setup="{}">
     <source src="https://beanball.wcbn.org:8443/wcbn6.mp3" type="video/mp4" >
