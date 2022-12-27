@@ -16,7 +16,7 @@ export default function Index() {
     controls
         poster="/wcbn.png"
     preload="auto"
-    width="100%"
+   // width="100%"
   //  height="264"
     data-setup="{}">
     <source src="https://beanball.wcbn.org:8443/wcbn6.mp3" type="video/mp4" >
