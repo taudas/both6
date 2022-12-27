@@ -16,6 +16,7 @@ export default function Index() {
     controls
         poster="/wcbn.png"
     preload="auto"
+    fullscreen="true"
    // width="100%"
   //  height="264"
     data-setup="{}">
