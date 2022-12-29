@@ -16,10 +16,10 @@ export default function Index() {
     controls
         poster="/naiv.png"
     preload="auto"
- width="640"
+// width="640"
   //  height="264"
     data-setup="{}">
-    <source src="https://drive.google.com/file/d/1ulUVW1VbyprENI9t8xIW_BFvsPWcdA_O/view?usp=share_link" type="video/mp4" >
+    <source src="https://bothkinds7.web.app/SpecialEd-Story_Of_The_Naivete.mp3" type="video/mp4" >
 
     </source>
     </video>
@@ -29,10 +29,10 @@ export default function Index() {
     controls
         poster="/wcbn.png"
     preload="auto"
- width="640"
+// width="640"
   //  height="264"
     data-setup="{}">
-    <source src="https://drive.google.com/file/d/1ulUVW1VbyprENI9t8xIW_BFvsPWcdA_O/" type="video/mp4" >
+    <source src="https://bothkinds7.web.app/SpecialEd-Birdsongs.mp3" type="video/mp4" >
     </source>
     </video>
 
