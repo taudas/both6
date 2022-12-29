@@ -19,7 +19,8 @@ export default function Index() {
  width="640"
   //  height="264"
     data-setup="{}">
-    <source src="https://beanball.wcbn.org:8443/wcbn6.mp3" type="video/mp4" >
+    <source src="https://drive.google.com/file/d/1ulUVW1VbyprENI9t8xIW_BFvsPWcdA_O/view?usp=share_link" type="video/mp4" >
+
     </source>
     </video>
 
