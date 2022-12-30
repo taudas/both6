@@ -1,5 +1,9 @@
 import Script from 'next/script'
 import Head from 'next/head'
+import { Inter}  from '@next/font/google'
+const inter = Inter({ subsets: ['latin'] })
+
+
 export const config = {  runtime: "experimental-edge",};
 export default function Index() {
   return (
@@ -7,7 +11,7 @@ export default function Index() {
 <Head>
   <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
 </Head>
-<div>
+<div className={inter.className} >
 <center>
 
   <video   id="my-video"
