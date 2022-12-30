@@ -1,7 +1,6 @@
 import Script from 'next/script'
 import Head from 'next/head'
 export const config = {  runtime: "experimental-edge",};
-
 export default function Index() {
   return (
   <>
@@ -10,7 +9,20 @@ export default function Index() {
 </Head>
 <div>
 <center>
+
+  <video   id="my-video"
+    class="video-js"
+    controls
+        poster="/flou.png"
+    preload="auto"
+ width="320"
+  height="64"
+    data-setup="{}">
+    <source src="https://bothkinds7.web.app/wegot.mp3" type="video/mp4" >
+    </source>
+    </video>
 <h1>we got both kinds</h1>
+
   <video   id="my-video"
     class="video-js"
     controls
@@ -20,7 +32,6 @@ export default function Index() {
   //  height="264"
     data-setup="{}">
     <source src="https://bothkinds7.web.app/SpecialEd-Story_Of_The_Naivete.mp3" type="video/mp4" >
-
     </source>
     </video>
 
@@ -36,17 +47,6 @@ export default function Index() {
     </source>
     </video>
 
-  <video   id="my-video"
-    class="video-js"
-    controls
-        poster="/flou.png"
-    preload="auto"
-// width="640"
-  //  height="264"
-    data-setup="{}">
-    <source src="https://bothkinds7.web.app/wegot.mp3" type="video/mp4" >
-    </source>
-    </video>
 
     </center>
     
