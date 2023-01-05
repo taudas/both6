@@ -27,13 +27,13 @@ export default function Index() {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2022 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+    date="2023"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
  // {/*   icon={<WorkIcon />} */}
   >
     <h3 className="vertical-timeline-element-title">We Got Both Kinds</h3>
-    <h4 className="vertical-timeline-element-subtitle">because we thought it would be fun</h4>
+    <h4 className="vertical-timeline-element-subtitle">a collection of the work of Ed Special</h4>
     <p>
 
   <video   id="my-video"
@@ -41,8 +41,8 @@ export default function Index() {
     controls
         poster="/flou.png"
     preload="auto"
- width="320"
-  height="64"
+// width="320"
+//  height="64"
     data-setup="{}">
     <source src="https://bothkinds7.web.app/wegot.mp3" type="video/mp4" >
     </source>
@@ -53,8 +53,10 @@ export default function Index() {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
     date="1993"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 //  #  icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">The Story Of The Naivete</h3>
@@ -70,8 +72,8 @@ export default function Index() {
     controls
         poster="/naiv.png"
     preload="auto"
-width="640"
-    height="320"
+//width="640"
+//    height="320"
     data-setup="{}">
     <source src="https://bothkinds7.web.app/SpecialEd-Story_Of_The_Naivete.mp3" type="video/mp4" >
     </source>
@@ -82,12 +84,15 @@ width="640"
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+
     date="2008"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
  //  # icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Birdsongs </h3>
-    <h4 className="vertical-timeline-element-subtitle">TBD ?2008?</h4>
+    <h4 className="vertical-timeline-element-subtitle">TBD 2008?</h4>
     <p>
       
 
@@ -96,8 +101,8 @@ width="640"
     controls
         poster="/bird.png"
     preload="auto"
-width="640"
-    height="264"
+//width="640"
+//    height="264"
     data-setup="{}">
     <source src="https://bothkinds7.web.app/SpecialEd-Birdsongs.mp3" type="video/mp4" >
     </source>
@@ -110,43 +115,11 @@ width="640"
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-  // # icon={<WorkIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">TBD</h3>
-    <h4 className="vertical-timeline-element-subtitle">foo</h4>
-    <p>
-      User 
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-  // # icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Content </h3>
-    <h4 className="vertical-timeline-element-subtitle">Online</h4>
-    <p>
-      Strategy
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-  // # icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">TBD</h3>
-    <h4 className="vertical-timeline-element-subtitle">TBD</h4>
-    <p>
-       Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+
+
     date="2002 - 2023"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   // # icon={<SchoolIcon />}
@@ -175,11 +148,6 @@ width="640"
     </center>
     
   <Script src="https://vjs.zencdn.net/7.20.3/video.min.js"></Script>
-<center>
-<h1>
-<a href="https://dangling-ganglion.bandcamp.com/">Visit Dangling Ganglion on Bandcamp</a>
-</h1>
-</center>
 </div>
 </>
 )
