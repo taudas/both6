@@ -26,10 +26,10 @@ export default function Index() {
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
     date="2023"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
  // {/*   icon={<WorkIcon />} */}
   >
     <h3 className="vertical-timeline-element-title">We Got Both Kinds</h3>
@@ -53,10 +53,10 @@ export default function Index() {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
     date="1993"
-   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 //  #  icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">The Story Of The Naivete</h3>
@@ -84,11 +84,11 @@ export default function Index() {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
 
     date="2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
  //  # icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Birdsongs </h3>
@@ -116,12 +116,12 @@ export default function Index() {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
 
 
     date="2002 - 2023"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   // # icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">More</h3>
@@ -136,7 +136,7 @@ export default function Index() {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#000' }}
+    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
   // # icon={<StarIcon />}
   />
 </VerticalTimeline>
