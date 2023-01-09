@@ -55,6 +55,59 @@ export default function Index() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+    date="2020-2022"
+   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+//  #  icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">The Plague Years</h3>
+    <h4 className="vertical-timeline-element-subtitle">
+During lockdown, a lot was accomplished
+</h4>
+    <p>
+<a href="https://danglingganglion.com/">Visit DanglingGanglion Gallery</a>
+
+    </p>
+  </VerticalTimelineElement>
+
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+    date="2006"
+   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+//  #  icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">Spacial Ed</h3>
+    <h4 className="vertical-timeline-element-subtitle">
+    Space Theme
+</h4>
+    <p>
+
+  <video   id="my-video2"
+    className="video-js"
+    controls
+        poster="/flou.png"
+    preload="auto"
+//width="640"
+//    height="320"
+    data-setup="{}">
+    <source src="https://bothkinds7.web.app/SpacialEd20060615.mp3.mp3" type="video/mp4" 
+//       src="https://bothkinds7.web.app/SpacialEd20060622.mp3.mp3" type="video/mp4" 
+ //      src="https://bothkinds7.web.app/SpacialEd20060629.mp3.mp3" type="video/mp4" 
+ >
+    </source>
+    </video>
+    </p>
+  </VerticalTimelineElement>
+
+
+
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
     date="1993"
    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 //  #  icon={<WorkIcon />}
@@ -78,10 +131,9 @@ export default function Index() {
     <source src="https://bothkinds7.web.app/SpecialEd-Story_Of_The_Naivete.mp3" type="video/mp4" >
     </source>
     </video>
-
-
     </p>
   </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -121,7 +173,7 @@ export default function Index() {
 
 
     date="2002 - 2023"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   // # icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">More</h3>
@@ -136,7 +188,7 @@ export default function Index() {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   // # icon={<StarIcon />}
   />
 </VerticalTimeline>
