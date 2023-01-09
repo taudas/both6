@@ -33,7 +33,7 @@ export default function Index() {
  // {/*   icon={<WorkIcon />} */}
   >
     <h3 className="vertical-timeline-element-title">We Got Both Kinds</h3>
-    <h4 className="vertical-timeline-element-subtitle">a collection of the work of Ed Special</h4>
+    <h4 className="vertical-timeline-element-subtitle">this is a collection of the work of Ed Special</h4>
     <p>
 
   <video   id="my-video"
@@ -41,6 +41,7 @@ export default function Index() {
     controls
         poster="/flou.png"
     preload="auto"
+audioonlymode="true"
 // width="320"
 //  height="64"
     data-setup="{}">
@@ -59,12 +60,12 @@ export default function Index() {
    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 //  #  icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">The Plague Years</h3>
+    <h3 className="vertical-timeline-element-title">The Covid Years</h3>
     <h4 className="vertical-timeline-element-subtitle">
-During lockdown, a lot was accomplished
+During lockdown, a lot was accomplished, such as assembling the "Warts & All" sampler
 </h4>
     <p>
-<a href="https://danglingganglion.com/">Visit DanglingGanglion Gallery</a>
+<a href="https://danglingganglion.com/">Visit Dangling Ganglion Sampler Gallery</a>
 
     </p>
   </VerticalTimelineElement>
@@ -80,10 +81,10 @@ During lockdown, a lot was accomplished
   >
     <h3 className="vertical-timeline-element-title">Spacial Ed</h3>
     <h4 className="vertical-timeline-element-subtitle">
-    Space Theme
+    Space Theme Shows
 </h4>
     <p>
-
+SpacialEd20060615
   <video   id="my-video2"
     className="video-js"
     controls
@@ -92,11 +93,42 @@ During lockdown, a lot was accomplished
 //width="640"
 //    height="320"
     data-setup="{}">
-    <source src="https://bothkinds7.web.app/SpacialEd20060615.mp3.mp3" type="video/mp4" 
-//       src="https://bothkinds7.web.app/SpacialEd20060622.mp3.mp3" type="video/mp4" 
- //      src="https://bothkinds7.web.app/SpacialEd20060629.mp3.mp3" type="video/mp4" 
+    <source src="https://bothkinds7.web.app/SpacialEd20060615.mp3" type="video/mp4" 
+//       src="https://bothkinds7.web.app/SpacialEd20060622.mp3" type="video/mp4" 
+ //      src="https://bothkinds7.web.app/SpacialEd20060629.mp3" type="video/mp4" 
  >
     </source>
+    </video>
+    SpacialEd20060622
+  <video   id="my-video2"
+    className="video-js"
+    controls
+        poster="/flou.png"
+    preload="auto"
+//width="640"
+//    height="320"
+    data-setup="{}">
+    <source 
+       src="https://bothkinds7.web.app/SpacialEd20060622.mp3" type="video/mp4" 
+ //      src="https://bothkinds7.web.app/SpacialEd20060629.mp3" type="video/mp4" 
+ >
+    </source>
+
+    </video>
+SpacialEd20060629
+  <video   id="my-video2"
+    className="video-js"
+    controls
+        poster="/flou.png"
+    preload="auto"
+//width="640"
+//    height="320"
+    data-setup="{}">
+    <source 
+      src="https://bothkinds7.web.app/SpacialEd20060629.mp3" type="video/mp4" 
+ >
+    </source>
+
     </video>
     </p>
   </VerticalTimelineElement>
@@ -159,19 +191,33 @@ During lockdown, a lot was accomplished
     <source src="https://bothkinds7.web.app/SpecialEd-Birdsongs.mp3" type="video/mp4" >
     </source>
     </video>
-
-
-
-
-
     </p>
   </VerticalTimelineElement>
+  
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
 
-
+    date="1989"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+ //  # icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
+    <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
+    <p>
+      
+      <audio controls><source src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3">
+      </source>
+</audio>
+    </p>
+  </VerticalTimelineElement>
+  
+  
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
     date="2002 - 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   // # icon={<SchoolIcon />}
