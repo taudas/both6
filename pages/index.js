@@ -1,10 +1,15 @@
+import React from 'react';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import Script from 'next/script'
 import Head from 'next/head'
-import { Inter}  from '@next/font/google'
+import { Righteous}  from '@next/font/google'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter  = Righteous({ subsets: ['latin']
+, weight: '400'
+ })
 
 
 export const config = {  runtime: "experimental-edge",};
@@ -62,11 +67,11 @@ audioonlymode="true"
   >
     <h3 className="vertical-timeline-element-title">The Covid Years</h3>
     <h4 className="vertical-timeline-element-subtitle">
-During lockdown, a lot was accomplished, such as assembling the "Warts & All" sampler
+The assembly of the "Warts & All" sampler was accomplished during lockdown
 </h4>
-    <p>
+    <p><h3>
 <a href="https://danglingganglion.com/">Visit Dangling Ganglion Sampler Gallery</a>
-
+</h3>
     </p>
   </VerticalTimelineElement>
 
@@ -206,11 +211,17 @@ SpacialEd20060629
     <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
     <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
     <p>
-      
+      <Popup trigger={<button className="button">1989 and 1990</button>} modal>
       <audio controls><source src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3">
       </source>
 </audio>
+      <audio controls><source src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3">
+      </source>
+</audio>
+      </Popup>
+
     </p>
+    
   </VerticalTimelineElement>
   
   
