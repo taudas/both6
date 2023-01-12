@@ -212,12 +212,13 @@ SpacialEd20060629
     <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
     <p>
       <Popup trigger={<button className="button">1989 and 1990</button>} modal>
-      <audio controls><source src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3">
-      </source>
-</audio>
-      <audio controls><source src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3">
-      </source>
-</audio>
+    <center> SPED-CLEAR_LEADER1989
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3">
+</audio><br></br>
+SPED-CLEAR_LEADER1990
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3">
+      
+</audio></center>
       </Popup>
 
     </p>
