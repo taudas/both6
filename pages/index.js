@@ -3,11 +3,11 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import Script from 'next/script'
 import Head from 'next/head'
-import { Righteous}  from '@next/font/google'
+import { Press_Start_2P}  from '@next/font/google'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-const inter  = Righteous({ subsets: ['latin']
+const inter  = Press_Start_2P({ subsets: ['latin']
 , weight: '400'
  })
 
