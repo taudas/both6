@@ -20,13 +20,8 @@ export default function Index() {
   <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
 </Head>
 
-
 <div className={inter.className} >
 <center>
-
-
-
-
 
 <VerticalTimeline>
   <VerticalTimelineElement
@@ -204,23 +199,51 @@ SpacialEd20060629
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
 
-    date="1989"
+    date="1988 - 1997"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
  //  # icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
-    <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
+    <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival from 1988 to 1997</h4>
     <p>
-      <Popup trigger={<button className="button">1989 and 1990</button>} modal>
-    <center> SPED-CLEAR_LEADER1989
+      <Popup trigger={<button className="button">festival patrons were asked to draw on clear film media to be shown during the finale
+      <br></br>these are the soundtracks</button>} modal>
+    <center>
+    
+    
+     SPED-CLEAR_LEADER1988
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1988.mp3">
+</audio><br></br>  
+   SPED-CLEAR_LEADER1989
       <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3">
 </audio><br></br>
 SPED-CLEAR_LEADER1990
       <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3">
-      
-</audio></center>
+</audio><br></br>
+     SPED-CLEAR_LEADER1991
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1991.mp3">
+</audio><br></br>
+SPED-CLEAR_LEADER1992
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1992.mp3">
+</audio><br></br>
+    
+     SPED-CLEAR_LEADER1993
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1993.mp3">
+</audio><br></br>
+SPED-CLEAR_LEADER1994
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1994.mp3">
+</audio><br></br>
+     SPED-CLEAR_LEADER1995  
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1995.mp3">
+</audio><br></br>
+SPED-CLEAR_LEADER1996
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1996.mp3">
+</audio><br></br>
+     SPED-CLEAR_LEADER1997  
+      <audio controls src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1997.mp3">
+</audio><br></br>
+</center>
       </Popup>
-
     </p>
     
   </VerticalTimelineElement>
