@@ -204,7 +204,7 @@ SpacialEd20060629
  //  # icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
-    <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival from 1988 to 1997</h4>
+    <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
     <p>
       <Popup trigger={<button className="button">festival patrons were asked to draw on clear film media to be shown during the finale
       <br></br>these are the soundtracks</button>} modal>
