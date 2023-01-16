@@ -198,6 +198,35 @@ SpacialEd20060629
     </video>
     </p>
   </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+
+    date="2006"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+ //  # icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">ART FAIRE</h3>
+    <h4 className="vertical-timeline-element-subtitle">2006</h4>
+    <p>
+      
+
+  <video   id="my-video3"
+    className="video-js"
+    controls
+        poster="/flou.png"
+    preload="auto"
+//width="640"
+//    height="264"
+    data-setup="{}">
+    <source src="https://bothkinds7.web.app/SPED-ART_FAIRE_2006.mp3" type="video/mp4" >
+    </source>
+    </video>
+    </p>
+  </VerticalTimelineElement>
+
   
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -335,6 +364,7 @@ FFCL.2008.TIME<br></br>
   
     </p>
   </VerticalTimelineElement>
+
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
   // # icon={<StarIcon />}
