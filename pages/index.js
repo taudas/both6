@@ -4,12 +4,12 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import Script from 'next/script'
 import Head from 'next/head'
-import { Press_Start_2P}  from '@next/font/google'
+import { Share_Tech_Mono}  from '@next/font/google'
 import { Inter}  from '@next/font/google'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-const press  = Press_Start_2P({ subsets: ['latin']
+const press  = Share_Tech_Mono({ subsets: ['latin']
 , weight: '400'
  })
 const inter  = Inter({ subsets: ['latin']
@@ -24,7 +24,7 @@ export default function Index() {
   <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet"/>
 </Head>
 
-<div className={inter.className}>
+<div className={press.className}>
 <center>
 <VerticalTimeline>
 <VerticalTimelineElement
@@ -239,10 +239,9 @@ SpacialEd20060629
   >
     <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
     <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
-<p><h5>In the lobby of The Michigan Theater during the week of the festival,                                                      
+<h5>In the lobby of The Michigan Theater during the week of the festival,                                                      
 the audience is invited to contribute their own art by way of colored                                                      
 markers onto a reel of clear leader film. </h5>
-</p>
 
     <p>
       <Popup trigger={<button className="button">SOUNDTRACKS</button>} modal>
@@ -297,16 +296,10 @@ SPED-CLEAR_LEADER1996<br></br>
   >
     <h3 className="vertical-timeline-element-title">CLEAR LEADER AGAIN</h3>
     <h4 className="vertical-timeline-element-subtitle">made for Ann Arbor Film Festival</h4>
-<p><h5>
+<h5>
 this year 700 feet instead                                                    
 of the usual 400 was donated and nearly all of it was                                                            
 enthusiastically filled up by the time it was shown.
- </h5>
-</p>
-
-    <p>
-      <Popup trigger={<button className="button">SOUNDTRACKS</button>} modal>
-    <center>
  The                                                    
 projectionists cut the film in half and projected both halves                                                              
 side-by-side on the wide screen.                                                                                           
@@ -316,8 +309,6 @@ compose something that is rich enough with material that it might
 synchronize frequently with the stuff on the film (which is ALWAYS the                                                     
 same delightful sort of scribbling, stripy, wonderfully splotchy messy                                                     
 gibberish).                                                                                                                
-
-                                                                                                                           
 Most of the spoken bits were extracted from vintage instructional films        
 on proper maintenance of film projectors, thanks to Rick Prelinger's                                                       
 Internet Archive, the rest from The Tingler; Vernon, Florida and                                                           
@@ -328,6 +319,11 @@ when we were partners in audio crime during the first six years of
 Special Ed (that's the name of my radio show, not where the short bus                                                      
 took me).                                                                 
 <br></br>    
+
+ </h5>
+<p>
+      <Popup trigger={<button className="button">SOUNDTRACKS</button>} modal>
+    <center>
     
      2007_FFCL_Mix_18.35
      <br></br>
@@ -339,8 +335,7 @@ FFCL.2008.TIME<br></br>
 
 </center>
       </Popup>
-    </p>
-    
+   </p> 
   </VerticalTimelineElement>
  
  
