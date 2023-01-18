@@ -5,14 +5,14 @@ import 'reactjs-popup/dist/index.css';
 import Script from 'next/script'
 import Head from 'next/head'
 import { Share_Tech_Mono}  from '@next/font/google'
-import { Inter}  from '@next/font/google'
+import { Nova_Mono}  from '@next/font/google'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 const press  = Share_Tech_Mono({ subsets: ['latin']
 , weight: '400'
  })
-const inter  = Inter({ subsets: ['latin']
+const inter  = Nova_Mono({ subsets: ['latin']
 , weight: '400'
  })
 
@@ -24,7 +24,7 @@ export default function Index() {
   <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet"/>
 </Head>
 
-<div className={press.className}>
+<div className={inter.className}>
 <center>
 <VerticalTimeline>
 <VerticalTimelineElement
@@ -52,12 +52,7 @@ data-setup="{}">
     
 </VerticalTimelineElement>
 
-
-
-
-
-
-  <VerticalTimelineElement
+<VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
@@ -227,6 +222,34 @@ SpacialEd20060629
     </p>
   </VerticalTimelineElement>
 
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+    contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
+
+    date="2006"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
+ //  # icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">ASH WEDNESDAY</h3>
+    <h4 className="vertical-timeline-element-subtitle">2006?</h4>
+    <p>
+      
+
+  <video   id="my-video3"
+    className="video-js"
+    controls
+        poster="/flou.png"
+    preload="auto"
+//width="640"
+//    height="264"
+    data-setup="{}">
+    <source src="https://bothkinds7.web.app/EdSpecial-AshWednesday.mp3" type="video/mp4" >
+    </source>
+    </video>
+    </p>
+  </VerticalTimelineElement>
+
   
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -330,7 +353,7 @@ took me).
       <audio controls src="https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3">
 </audio><br></br>  
 FFCL.2008.TIME<br></br>
-      <audio controls src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3.mp3">
+      <audio controls src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3">
 </audio><br></br>
 
 </center>
