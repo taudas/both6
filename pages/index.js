@@ -33,8 +33,8 @@ export default function Index() {
     contentArrowStyle={{ borderRight: '17px solid  rgb(33, 150, 243)' }}
     date="2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-<h3 className="vertical-timeline-element-title">We Got Both Kinds</h3>
-<h4 className="vertical-timeline-element-subtitle">this is a collection of the work of Ed Special</h4>
+<h1 className="vertical-timeline-element-title">We Got Both Kinds</h1>
+<h3 className="vertical-timeline-element-subtitle">this is a collection of the work of Ed Special</h3>
 <p>
 
 <video   id="my-video"
