@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import ReactPlayer from 'react-player'
 import Script from "next/script";
 import Head from "next/head";
 import { Share_Tech_Mono } from "@next/font/google";
@@ -433,6 +434,61 @@ export default function Index() {
                       src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3"
                     ></audio>
                     <br></br>
+                  </center>
+                </Popup>
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              contentArrowStyle={{
+                borderRight: "17px solid  rgb(33, 150, 243)",
+              }}
+              date="2007 - 2008"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              //  # icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                CLEAR LEADER AGAIN
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                made for Ann Arbor Film Festival
+              </h4>
+              <h5>
+                this year 700 feet instead of the usual 400 was donated and
+                nearly all of it was enthusiastically filled up by the time it
+                was shown. The projectionists cut the film in half and projected
+                both halves side-by-side on the wide screen. I had been
+                composing soundtracks for them for 20 years. Of course, never
+                able to view the film before it's shown, I try to compose
+                something that is rich enough with material that it might
+                synchronize frequently with the stuff on the film (which is
+                ALWAYS the same delightful sort of scribbling, stripy,
+                wonderfully splotchy messy gibberish). Most of the spoken bits
+                were extracted from vintage instructional films on proper
+                maintenance of film projectors, thanks to Rick Prelinger's
+                Internet Archive, the rest from The Tingler; Vernon, Florida and
+                Donovan's Brain (Suspense Radio). Much of the sound collage was
+                taken from radio collage done live on WCBN-FM 88.3 many years
+                ago. Some of it includes Barry Bouwsma's work when we were
+                partners in audio crime during the first six years of Special Ed
+                (that's the name of my radio show, not where the short bus took
+                me).
+                <br></br>
+              </h5>
+              <p>
+                <Popup
+                  trigger={<button className="button">SOUNDTRACKS</button>}
+                  modal
+                >
+                  <center>
+                  <ReactPlayer controls={true}
+  url={[
+    'https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3',
+    'https://bothkinds7.web.app/FFCL.2008_TIME.mp3'
+  ]}
+/>
                   </center>
                 </Popup>
               </p>
