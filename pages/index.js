@@ -1,8 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
-import ReactPlayer from 'react-player'
 import Script from "next/script";
 import Head from "next/head";
 import { Share_Tech_Mono } from "@next/font/google";
@@ -12,6 +11,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+
+import ReactAudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
+
+import 'react-h5-audio-player/lib/styles.css';
+
+
 
 const press = Share_Tech_Mono({ subsets: ["latin"], weight: "400" });
 const inter = Nova_Mono({ subsets: ["latin"], weight: "400" });
@@ -308,71 +313,63 @@ export default function Index() {
 
               <p>
                 <Popup
-                  trigger={<button className="button">SOUNDTRACKS</button>}
+                  trigger={<button className="button"><h3>SOUNDTRACKS</h3></button>}
                   modal
                 >
-                  <center>
-                    SPED-CLEAR_LEADER1988<br></br>
-                    <audio
+                    <center>
+                    <h4>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1988"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1988.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1989<br></br>
-                    <audio
+                    <ReactAudioPlayer  header="SPED-CLEAR_LEADER1989"     customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1990<br></br>
-                    <audio
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1990"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1991<br></br>
-                    <audio
+                    <ReactAudioPlayer    header="SPED-CLEAR_LEADER1991"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1991.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1992<br></br>
-                    <audio
+                    <ReactAudioPlayer  header="SPED-CLEAR_LEADER1992"     customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1992.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1993<br></br>
-                    <audio
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1993"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1993.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1994<br></br>
-                    <audio
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1994"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1994.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1995 <br></br>
-                    <audio
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1995"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1995.mp3"
-                    ></audio>
+                    />
                     <br></br>
-                    SPED-CLEAR_LEADER1996<br></br>
-                    <audio
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1996"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1996.mp3"
-                    ></audio>
-                    <br></br>
-                    SPED-CLEAR_LEADER1997 <br></br>
-                    <audio
+                    />
+                  <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1997" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1997.mp3"
-                    ></audio>
-                    <br></br>
+                      />
+                      </h4>
                   </center>
+
                 </Popup>
               </p>
             </VerticalTimelineElement>
@@ -417,22 +414,23 @@ export default function Index() {
               </h5>
               <p>
                 <Popup
-                  trigger={<button className="button">SOUNDTRACKS</button>}
+                  trigger={<button className="button"><h3>SOUNDTRACKS</h3></button>}
                   modal
                 >
                   <center>
                     2007_FFCL_Mix_18.35
                     <br></br>
-                    <audio
-                      controls
+                    <ReactAudioPlayer       customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       src="https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3"
-                    ></audio>
-                    <br></br>
-                    FFCL.2008.TIME<br></br>
-                    <audio
                       controls
+                    />
+                    <br></br>
+                    FFCL.2008.TIME
+                    <br></br>
+                    <ReactAudioPlayer customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3"
-                    ></audio>
+                      controls
+                    />
                     <br></br>
                   </center>
                 </Popup>
@@ -478,19 +476,17 @@ export default function Index() {
                 <br></br>
               </h5>
               <p>
-                <Popup
-                  trigger={<button className="button">SOUNDTRACKS</button>}
-                  modal
-                >
                   <center>
-                  <ReactPlayer controls={true}
-  url={[
-    'https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3',
-    'https://bothkinds7.web.app/FFCL.2008_TIME.mp3'
-  ]}
-/>
+                  <ReactAudioPlayer    header="2007_FFCL_Mix_18.35"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                    src="https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3"
+                    controls
+                  />
+                  <br></br>
+                  <ReactAudioPlayer header="FFCL.2008.TIME" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                    src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3"
+                    controls
+                  />
                   </center>
-                </Popup>
               </p>
             </VerticalTimelineElement>
 
