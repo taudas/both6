@@ -437,7 +437,7 @@ export default function Index() {
               //  # icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
-                Penis and Testicles Dances Party
+                Penis and Testicles Dance Party
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 made live at WCBN circa mid 1980s<br></br>
