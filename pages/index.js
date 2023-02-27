@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Popup from "reactjs-popup";
-import "reactjs-popup/dist/index.css";
 import Script from "next/script";
 import Head from "next/head";
 import { Share_Tech_Mono } from "@next/font/google";
@@ -16,6 +14,7 @@ import ReactAudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
 
 import 'react-h5-audio-player/lib/styles.css';
 
+import _JSXStyle from 'styled-jsx/style'
 
 
 const press = Share_Tech_Mono({ subsets: ["latin"], weight: "400" });
@@ -30,9 +29,12 @@ export default function Index() {
           href="https://vjs.zencdn.net/7.20.3/video-js.css"
           rel="stylesheet"
         />
+
+
       </Head>
 
       <div className={inter.className}>
+
         <center>
           <VerticalTimeline>
             <VerticalTimelineElement
@@ -426,41 +428,32 @@ export default function Index() {
               </p>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              contentArrowStyle={{
-                borderRight: "17px solid  rgb(33, 150, 243)",
-              }}
-              date="1985"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              //  # icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Penis and Testicles Dance Party
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                made live at WCBN circa mid 1980s<br></br>
-                Edited together from up to 7 records skipping on 7 turntables.
-Beanball (Barry Bouwsma) in Prod A,
-Duncan Campbell in Prod B,
-Ed Special in FM Studio and sex ed records<br></br>
-Edited by Ed Special
-              </h4>
-              <h1>
-                <font color="red">NSFW</font>
+            <VerticalTimelineElement className="vertical-timeline-element--work"
+    contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+    contentArrowStyle={{ borderRight: "17px solid  rgb(33, 150, 243)", }}
+    date="1985" iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+    //  # icon={<WorkIcon />}
+     >
+    <h3 className="vertical-timeline-element-title">
+    Penis and Testicles Dance Party </h3>
+    <h4 className="vertical-timeline-element-subtitle"> made live at WCBN circa mid
+    1980s<br></br> Edited together from up to 7 records skipping on 7
+    turntables. Beanball (Barry Bouwsma) in Prod A, Duncan Campbell in Prod B,
+    Ed Special in FM Studio and sex ed records<br></br> Edited by Ed Special
+    </h4>
+    <h1> <font color="red">NSFW</font>
 
-                <br></br>
-              </h1>
-              <p>
-                  <center>
-                  <ReactAudioPlayer    header="PandTDanceParty"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                    src="https://bothkinds7.web.app/SpecialEd-PandTDanceParty.mp3"
-                    controls
+                <br></br> </h1> <p> <center>
+
+                  <ReactAudioPlayer    header="PandTDanceParty"
+                  customVolumeControls={[]} customAdditionalControls={[]}
+                  showJumpControls={false}
+                  src="https://bothkinds7.web.app/SpecialEd-PandTDanceParty.mp3"
+                  controls
+
                   />
-                  </center>
-              </p>
-            </VerticalTimelineElement>
+
+                  </center> </p> </VerticalTimelineElement>
 
 
 
