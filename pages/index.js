@@ -89,13 +89,156 @@ export default function Index() {
                 during lockdown
               </h4>
               <p>
-                <h3>
+                <h1><font color="red">
                   <a href="https://danglingganglion.com/">
                     Visit Dangling Ganglion Sampler Gallery
-                  </a>
-                </h3>
+                  </a></font>
+                </h1>
               </p>
             </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              contentArrowStyle={{
+                borderRight: "17px solid  rgb(33, 150, 243)",
+              }}
+              date="1988 - 1997"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              //  # icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                made for Ann Arbor Film Festival
+              </h4>
+              <h5>
+                In the lobby of The Michigan Theater during the week of the
+                festival, the audience is invited to contribute their own art by
+                way of colored markers onto a reel of clear leader film.{" "}
+              </h5>
+
+              <p>
+
+                    <center>
+                    <h4>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1988"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1988.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer  header="SPED-CLEAR_LEADER1989"     customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1990"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer    header="SPED-CLEAR_LEADER1991"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1991.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer  header="SPED-CLEAR_LEADER1992"     customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1992.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1993"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1993.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1994"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1994.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1995"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1995.mp3"
+                    />
+                    <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1996"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1996.mp3"
+                    />
+                  <br></br>
+                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1997" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1997.mp3"
+                      />
+                      </h4>
+                  </center>
+
+
+              </p>
+            </VerticalTimelineElement>
+
+
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              contentArrowStyle={{
+                borderRight: "17px solid  rgb(33, 150, 243)",
+              }}
+              date="2007 - 2008"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              //  # icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                CLEAR LEADER AGAIN
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                made for Ann Arbor Film Festival
+              </h4>
+              <h5>
+                this year 700 feet instead of the usual 400 was donated and
+                nearly all of it was enthusiastically filled up by the time it
+                was shown. The projectionists cut the film in half and projected
+                both halves side-by-side on the wide screen. I had been
+                composing soundtracks for them for 20 years. Of course, never
+                able to view the film before it's shown, I try to compose
+                something that is rich enough with material that it might
+                synchronize frequently with the stuff on the film (which is
+                ALWAYS the same delightful sort of scribbling, stripy,
+                wonderfully splotchy messy gibberish). Most of the spoken bits
+                were extracted from vintage instructional films on proper
+                maintenance of film projectors, thanks to Rick Prelinger's
+                Internet Archive, the rest from The Tingler; Vernon, Florida and
+                Donovan's Brain (Suspense Radio). Much of the sound collage was
+                taken from radio collage done live on WCBN-FM 88.3 many years
+                ago. Some of it includes Barry Bouwsma's work when we were
+                partners in audio crime during the first six years of Special Ed
+                (that's the name of my radio show, not where the short bus took
+                me).
+                <br></br>
+              </h5>
+              <p>
+                  <center>
+                  <ReactAudioPlayer    header="2007_FFCL_Mix_18.35"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                    src="https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3"
+                    controls
+                  />
+                  <br></br>
+                  <ReactAudioPlayer header="FFCL.2008.TIME" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                    src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3"
+                    controls
+                  />
+                  </center>
+              </p>
+            </VerticalTimelineElement>
+
+
+
+
+
+
+
+
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -293,140 +436,6 @@ export default function Index() {
               </p>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              contentArrowStyle={{
-                borderRight: "17px solid  rgb(33, 150, 243)",
-              }}
-              date="1988 - 1997"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              //  # icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                made for Ann Arbor Film Festival
-              </h4>
-              <h5>
-                In the lobby of The Michigan Theater during the week of the
-                festival, the audience is invited to contribute their own art by
-                way of colored markers onto a reel of clear leader film.{" "}
-              </h5>
-
-              <p>
-
-                    <center>
-                    <h4>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1988"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1988.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer  header="SPED-CLEAR_LEADER1989"     customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1989.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1990"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1990.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer    header="SPED-CLEAR_LEADER1991"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1991.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer  header="SPED-CLEAR_LEADER1992"     customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1992.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1993"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1993.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1994"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1994.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1995"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1995.mp3"
-                    />
-                    <br></br>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1996"    customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1996.mp3"
-                    />
-                  <br></br>
-                    <ReactAudioPlayer   header="SPED-CLEAR_LEADER1997" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                      controls
-                      src="https://bothkinds7.web.app/SPED-CLEAR_LEADER1997.mp3"
-                      />
-                      </h4>
-                  </center>
-
-
-              </p>
-            </VerticalTimelineElement>
-
-
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              contentArrowStyle={{
-                borderRight: "17px solid  rgb(33, 150, 243)",
-              }}
-              date="2007 - 2008"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              //  # icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                CLEAR LEADER AGAIN
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                made for Ann Arbor Film Festival
-              </h4>
-              <h5>
-                this year 700 feet instead of the usual 400 was donated and
-                nearly all of it was enthusiastically filled up by the time it
-                was shown. The projectionists cut the film in half and projected
-                both halves side-by-side on the wide screen. I had been
-                composing soundtracks for them for 20 years. Of course, never
-                able to view the film before it's shown, I try to compose
-                something that is rich enough with material that it might
-                synchronize frequently with the stuff on the film (which is
-                ALWAYS the same delightful sort of scribbling, stripy,
-                wonderfully splotchy messy gibberish). Most of the spoken bits
-                were extracted from vintage instructional films on proper
-                maintenance of film projectors, thanks to Rick Prelinger's
-                Internet Archive, the rest from The Tingler; Vernon, Florida and
-                Donovan's Brain (Suspense Radio). Much of the sound collage was
-                taken from radio collage done live on WCBN-FM 88.3 many years
-                ago. Some of it includes Barry Bouwsma's work when we were
-                partners in audio crime during the first six years of Special Ed
-                (that's the name of my radio show, not where the short bus took
-                me).
-                <br></br>
-              </h5>
-              <p>
-                  <center>
-                  <ReactAudioPlayer    header="2007_FFCL_Mix_18.35"   customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                    src="https://bothkinds7.web.app/2007_FFCL_Mix_18.35.mp3"
-                    controls
-                  />
-                  <br></br>
-                  <ReactAudioPlayer header="FFCL.2008.TIME" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
-                    src="https://bothkinds7.web.app/FFCL.2008_TIME.mp3"
-                    controls
-                  />
-                  </center>
-              </p>
-            </VerticalTimelineElement>
 
             <VerticalTimelineElement className="vertical-timeline-element--work"
     contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
