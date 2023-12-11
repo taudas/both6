@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.6",
     "@next/font": "^13.1.1",
+    "electron": "^28.0.0",
     "mediaelement": "^5.1.0",
     "next": "13.1.1",
     "react": "18.2.0",
