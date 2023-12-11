@@ -85,7 +85,7 @@ export default function Index() {
                 The Covid Years
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                The assembly of the "Warts & All" sampler was accomplished
+                The assembly of the Warts & All sampler was accomplished
                 during lockdown
               </h4>
               <p>
@@ -115,54 +115,47 @@ export default function Index() {
               I have reduced one of my Xmas radio marathons to 7 hours, with WCBN station I Ds and playlist back announcing.
               This seven hour program only makes sense when all seven hours are played in succession, not aired separately.
               </h5>
-
               <p>
-
               <center>
               <h4>
               <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_1" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_1.mp3"
               />
-              </br></br>
+              <br></br>
               <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_2" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                         controls
                         src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_2.mp3"
-                        />
-              </br></br>
+              />
+              <br></br>
               <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_3" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_3.mp3"
               />
-              </br></br>
+              <br></br>
               <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_4" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                         controls
                         src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_4.mp3"
               />
-              </br></br>
-
-                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_5" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              <br></br>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_5" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_5.mp3"
-                      />
-                      </br></br>
-                      <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_6" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              />
+              <br></br>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_6" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                         controls
                         src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_6.mp3"
-                        />
-                    </br></br>
-                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_7" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              />
+              <br></br>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_7" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_7.mp3"
-                      />
-                      </br></br>
-
-                      <a href="https://bothkinds7.web.app/Santa_vs_Martians_2018__radio_PLAYLIST.html">PLAYLIST</a>
-
-                    </h4>
-                  </center>
-
-
+              />
+              <br></br>
+              <a href="https://bothkinds7.web.app/Santa_vs_Martians_2018__radio_PLAYLIST.html">PLAYLIST</a>
+              </h4>
+              </center>
               </p>
             </VerticalTimelineElement>
 
@@ -276,19 +269,19 @@ export default function Index() {
                 was shown. The projectionists cut the film in half and projected
                 both halves side-by-side on the wide screen. I had been
                 composing soundtracks for them for 20 years. Of course, never
-                able to view the film before it's shown, I try to compose
+                able to view the film before it&aposs shown, I try to compose
                 something that is rich enough with material that it might
                 synchronize frequently with the stuff on the film (which is
                 ALWAYS the same delightful sort of scribbling, stripy,
                 wonderfully splotchy messy gibberish). Most of the spoken bits
                 were extracted from vintage instructional films on proper
-                maintenance of film projectors, thanks to Rick Prelinger's
+                maintenance of film projectors, thanks to Rick Prelinger&aposs
                 Internet Archive, the rest from The Tingler; Vernon, Florida and
-                Donovan's Brain (Suspense Radio). Much of the sound collage was
+                Donovan&aposs Brain (Suspense Radio). Much of the sound collage was
                 taken from radio collage done live on WCBN-FM 88.3 many years
-                ago. Some of it includes Barry Bouwsma's work when we were
+                ago. Some of it includes Barry Bouwsma&aposs work when we were
                 partners in audio crime during the first six years of Special Ed
-                (that's the name of my radio show, not where the short bus took
+                (that&aposs the name of my radio show, not where the short bus took
                 me).
                 <br></br>
               </h5>
@@ -393,11 +386,11 @@ export default function Index() {
                 The Story Of The Naivete
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                "People might like to know that the way we did bits of this show
+                People might like to know that the way we did bits of this show
                 involved Ed and I trading random phrases back and forth from
                 various LPs in two different studios, hard to do when you
-                haven't heard what you're going to be playing and you're
-                laughing the entire time" - Yax Haxley
+                haven&apost heard what you&aposre going to be playing and you&aposre
+                laughing the entire time - Yax Haxley
               </h4>
               <p>
                 <video
