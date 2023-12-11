@@ -113,8 +113,7 @@ export default function Index() {
               </h4>
               <h5>
               I have reduced one of my Xmas radio marathons to 7 hours, with WCBN station I Ds and playlist back announcing.
-This seven hour program only makes sense when all seven hours are played in succession,
-not aired separately.
+This seven hour program only makes sense when all seven hours are played in succession, not aired separately.
               </h5>
 
               <p>
