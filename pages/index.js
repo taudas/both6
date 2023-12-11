@@ -113,36 +113,33 @@ export default function Index() {
               </h4>
               <h5>
               I have reduced one of my Xmas radio marathons to 7 hours, with WCBN station I Ds and playlist back announcing.
-This seven hour program only makes sense when all seven hours are played in succession, not aired separately.
+              This seven hour program only makes sense when all seven hours are played in succession, not aired separately.
               </h5>
 
               <p>
 
-                    <center>
-                    <h4>
-
-                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_1" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              <center>
+              <h4>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_1" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_1.mp3"
-                      />
-                      </br></br>
-                      <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_2" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              />
+              </br></br>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_2" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                         controls
                         src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_2.mp3"
                         />
-                    </br></br>
-
-
-                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_3" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              </br></br>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_3" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_3.mp3"
-                      />
-                      </br></br>
-                      <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_4" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+              />
+              </br></br>
+              <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_4" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                         controls
                         src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_4.mp3"
-                        />
-                    </br></br>
+              />
+              </br></br>
 
                     <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_5" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
                       controls
@@ -159,9 +156,10 @@ This seven hour program only makes sense when all seven hours are played in succ
                       src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_7.mp3"
                       />
                       </br></br>
+
                       <a href="https://bothkinds7.web.app/Santa_vs_Martians_2018__radio_PLAYLIST.html">PLAYLIST</a>
 
-                        </h4>
+                    </h4>
                   </center>
 
 
