@@ -107,6 +107,84 @@ export default function Index() {
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
               //  # icon={<WorkIcon />}
             >
+              <h3 className="vertical-timeline-element-title">Santa Vs Martians 2018 edited</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                made for Xmas 2023
+              </h4>
+              <h5>
+              I have reduced one of my Xmas radio marathons to 7 hours, with WCBN station I Ds and playlist back announcing.
+This seven hour program only makes sense when all seven hours are played in succession,
+not aired separately.
+              </h5>
+
+              <p>
+
+                    <center>
+                    <h4>
+
+                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_1" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_1.mp3"
+                      />
+                      </br></br>
+                      <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_2" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                        controls
+                        src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_2.mp3"
+                        />
+                    </br></br>
+
+
+                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_3" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_3.mp3"
+                      />
+                      </br></br>
+                      <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_4" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                        controls
+                        src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_4.mp3"
+                        />
+                    </br></br>
+
+                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_5" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_5.mp3"
+                      />
+                      </br></br>
+                      <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_6" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                        controls
+                        src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_6.mp3"
+                        />
+                    </br></br>
+                    <ReactAudioPlayer   header="Santa_vs_Martians_2018_radio_edited_7" customVolumeControls={[]} customAdditionalControls={[]} showJumpControls={false}
+                      controls
+                      src="https://bothkinds7.web.app/Santa_vs_Martians_2018_radio_edited_7.mp3"
+                      />
+                      </br></br>
+                      <a href="https://bothkinds7.web.app/Santa_vs_Martians_2018__radio_PLAYLIST.html">PLAYLIST</a>
+
+                        </h4>
+                  </center>
+
+
+              </p>
+            </VerticalTimelineElement>
+
+
+
+
+
+
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              contentArrowStyle={{
+                borderRight: "17px solid  rgb(33, 150, 243)",
+              }}
+              date="1988 - 1997"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              //  # icon={<WorkIcon />}
+            >
               <h3 className="vertical-timeline-element-title">CLEAR LEADER</h3>
               <h4 className="vertical-timeline-element-subtitle">
                 made for Ann Arbor Film Festival
