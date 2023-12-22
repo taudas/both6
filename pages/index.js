@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Script from "next/script";
 import Head from "next/head";
-import { Share_Tech_Mono } from "@next/font/google";
-import { Nova_Mono } from "@next/font/google";
+import { Share_Tech_Mono } from "next/font/google";
+import { Nova_Mono } from "next/font/google";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
