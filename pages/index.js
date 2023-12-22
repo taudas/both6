@@ -86,7 +86,7 @@ export default function Index() {
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 The assembly of the Warts & All sampler was accomplished
-                during lockdown
+                during lockdown.
               </h4>
               <p>
                 <h1><font color="red">
@@ -103,7 +103,7 @@ export default function Index() {
               contentArrowStyle={{
                 borderRight: "17px solid  rgb(33, 150, 243)",
               }}
-              date="1988 - 1997"
+              date="2023"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
               //  # icon={<WorkIcon />}
             >
